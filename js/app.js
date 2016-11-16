@@ -2,7 +2,6 @@ $(document).ready(function(){
 
   //Select a random value between 1 & 3.
   var computerChoice = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
-  console.log(computerChoice);
 
   //Set rock, paper, scissors values
   var rock = 1;
